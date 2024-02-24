@@ -53,7 +53,7 @@ ridge <- list()
 mv_intercepts <- data.frame()
 
 for ( i in seq_along(outcomes)) {
-  csi_dpw <- anlaysis_sets%>%filter(Outcome== outcomes[i])
+  csi_dpw <- analysis_sets%>%filter(Outcome== outcomes[i])
   
   #restrict to 108 SNPs for CSI and 60 SNPs for DPW 
   
